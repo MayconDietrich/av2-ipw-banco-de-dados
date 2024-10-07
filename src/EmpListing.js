@@ -12,7 +12,7 @@ const EmpListing = () => {
         navigate("/employee/edit/" + id);
     }
     const Removefunction = (id) => {
-        if (window.confirm('Do you want to remove?')) {
+        if (window.confirm('Tem certeza que deseja remover?')) {
             fetch("http://localhost:8000/employee/" + id, {
                 method: "DELETE"
             }).then((res) => {
