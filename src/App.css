@@ -1,0 +1,98 @@
+html, body{
+  background-color: #fefefe;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.btn{
+  margin: 2px;;
+}
+.divbtn{
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.list-card {
+  padding: 2rem !important;
+}
+
+.app-title {
+  margin: 2rem 0;
+}
+
+.medium-grey {
+  color: #787878;
+}
+
+.details-title {
+  font-size: 32px;
+}
+
+.employee-name {
+  font-size: 16px;
+}
+
+.employee-name b {
+  font-size: 24px;
+  color: #363636;
+}
+
+.btn-back {
+  margin-top: 1rem;
+}
+
+.bg-color {
+  background-color: #333842;
+}
+
+.list-card {
+  width: 80%;
+  margin-top: 2rem;
+  filter: drop-shadow(5px 5px 10px #c0c0e3);
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-success {
+  background-color: #27b366 !important;
+  border-color: transparent !important;
+}
